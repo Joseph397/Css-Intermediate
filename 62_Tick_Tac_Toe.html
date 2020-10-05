@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tick Tac Toe</title>
+  </head>
+  <style>
+      h1{
+          text-align: center;
+      }
+      table{
+          margin:auto;
+      }
+
+    tr {
+      height: 100px;
+    }
+    td {
+      /* border: 1px solid black; */
+      width: 100px;
+    }
+
+    .vertical {
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+    }
+
+    .horizontal {
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+    }
+  </style>
+  <body>
+      <h1>Tick Tac Toe</h1>
+    <table>
+      <tr>
+        <td></td>
+        <td class="vertical"></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td class="horizontal"></td>
+        <td class="vertical horizontal"></td>
+        <td class="horizontal"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td class="vertical"></td>
+        <td></td>
+      </tr>
+    </table>
+  </body>
+</html>
